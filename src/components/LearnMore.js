@@ -1,8 +1,12 @@
+import Arrow from "../images/arrow.png";
+
 export default function LearnMore({ children }) {
   return (
     <div
       style={{
         display: "flex",
+        paddingTop: "5%",
+        paddingBottom: "5%",
       }}
     >
       <div
@@ -47,6 +51,29 @@ export default function LearnMore({ children }) {
           The range of blends and flavors is sure to please even the most
           discerning coffee lover.
         </p>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <a
+            style={{
+              fontFamily: "raleway",
+              fontStyle: "normal",
+              fontWeight: "500",
+              fontSize: "20px",
+              color: "#000000",
+              fontWeight: "light",
+              paddingRight: "2%",
+            }}
+            href="https://pluralsight.com"
+          >
+            LEARN MORE
+          </a>
+
+          <img style={{ width: "15px", height: "15px" }} src={Arrow}></img>
+        </div>
       </div>
     </div>
   );
