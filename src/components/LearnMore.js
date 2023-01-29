@@ -24,6 +24,7 @@ export default function LearnMore({ children }) {
             lineHeight: "28px",
             color: "#000000",
             fontWeight: "light",
+            textDecoration: "none",
           }}
         >
           Our coffee beans are carefully sourced from the finest producers
@@ -66,8 +67,9 @@ export default function LearnMore({ children }) {
               color: "#000000",
               fontWeight: "light",
               paddingRight: "2%",
+              textDecoration: "none",
             }}
-            href="https://pluralsight.com"
+            href="About"
           >
             LEARN MORE
           </a>

@@ -9,10 +9,16 @@ import Arrow from "../images/arrow.png";
 import Beans1 from "../images/coffeebeans.jpg";
 import Beans2 from "../images/coffeebeans2.jpg";
 import Instagram from "../components/Instagram";
+import Nav from "../components/Nav";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <section>
+      <section>
+        <Nav></Nav>
+      </section>
       <div
         style={{
           display: "flex",
@@ -134,8 +140,9 @@ export default function Home() {
               color: "#000000",
               fontWeight: "light",
               paddingRight: "1%",
+              textDecoration: "none",
             }}
-            href="https://pluralsight.com"
+            href="store"
           >
             VIEW ALL
           </a>
@@ -248,6 +255,8 @@ export default function Home() {
         ></hr>
       </section>
       <Instagram></Instagram>
+      <Contact></Contact>
+      <Footer></Footer>
     </section>
   );
 }

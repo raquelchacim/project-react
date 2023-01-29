@@ -8,7 +8,6 @@ export default function Instagram({}) {
         backgroundImage: `url(${Insta})`,
         marginRight: "2%",
         marginLeft: "2%",
-        marginBottom: "2%",
         marginTop: "2%",
         height: "300px",
         backgroundSize: "cover",
