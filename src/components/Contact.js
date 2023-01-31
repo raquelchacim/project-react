@@ -196,6 +196,8 @@ export default function Form() {
                 backgroundColor: "#fff",
                 marginTop: "1%",
                 marginBottom: "2%",
+                resize: "none",
+                height: "100px",
               }}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
